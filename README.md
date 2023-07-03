@@ -16,26 +16,49 @@ An example Flutter app to show the meaning of a number using clean domain-driven
 
 ## 🔥 Features
 
-### 👍🏻 Feature 1
+### 👍🏻 Get the information of a specific
 
-### 👍🏻 Feature 2
+![](./assets/trivia.png)
+
+### 👍🏻 Get the information of a random number
+
+![](./assets/random_trivia.png)
 
 <p align="right">(<a href="#readme_top">back to top</a>)</p>
+
+## 🛑 What does not work?
+
+- One test ("should call the InputConverter to validate and convert the string to an unsigned integer") fails. I don't know why. If you know, please let me know.
+  I get the following error message:
+
+  ```sh
+  FakeUsedError: 'call'
+  No stub was found which matches the argument of this method call:
+  call(Params(1))
+
+  A fake object was created for this call, in the hope that it won't be ever accessed.
+  ```
 
 ## 🔢 Getting started
 
 1. Clone the repository
+
    ```sh
    git clone https://github.com/MhouneyLH/flutter_clean_architecture.git
    ```
+
 2. Install the depencies
+
    ```sh
    flutter pub get
    ```
+
 3. Run the app
+
    ```sh
    flutter run
    ```
+
    <p align="right">(<a href="#readme_top">back to top</a>)</p>
 
 ## 👨🏻‍💼 Contributing
